@@ -24,7 +24,7 @@ def log(level, *args):
 
 
 def sample_function():
-    print("This function prints a coloful log message based on levels, the function name which it calls, and the time stamp in microseconds.")
+    print("This function prints a colorful log message based on levels, the function name which it calls, and the time stamp in microseconds.")
     log(0, "Debug Log.")
     log(1, "Info Log.")
     log(2, "Success Log.")
